@@ -2,8 +2,11 @@
 
 version 0.5
 Marlon Allan – RA: 543772
+
 Tiago Pillon – RA: 539910
+
 Leandro – RA: 536903
+
 Felipe – RA: 545155
 
 Projeto de Pesquisa Operacional
