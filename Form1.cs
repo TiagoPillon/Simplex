@@ -15,7 +15,7 @@ namespace Simplex
         {
             InitializeComponent();
         }
-        //DataTable matrix = new DataTable();
+        
         private void Form1_Load(object sender, EventArgs e)
         {
         }
@@ -108,8 +108,7 @@ namespace Simplex
                     z[i, j] = float.Parse(m.Rows[i][j + 1].ToString());
             float MenorValor;
             float Pivo;
-            // Encontrar a coluna de resultados com o menor valor.
-            // jMax-1 ==> Nao olha a coluna B (resultados).
+     
             MenorValor = z[iMax, 0];
             for (int j = 0; j < jMax - 1; j++)
             {
@@ -120,7 +119,6 @@ namespace Simplex
                 }
             }
 
-            // Localizada a coluna do pivo, identificar a linha do Pivo;
             bool primeiroValor = true;            
             for (int i = 0; i < iMax; i++)
             {
@@ -132,11 +130,11 @@ namespace Simplex
                 }
             }
 
-            // INICIAR TRANSFORMACAO DAS LINHAS -- recalcula linha do pivo.
+       
             Pivo = z[iPivo, jPivo];
             for (int j = 0; j <= jMax; j++)
                 z[iPivo, j] = z[iPivo, j] / Pivo;
-            // CALCULA OUTRAS LINHAS
+        
             float fCoef;
             for (int i = 0; i <= iMax; i++)
                 if (i != iPivo)
@@ -148,7 +146,6 @@ namespace Simplex
                     }
                 }
 
-            // EXIBE NA TELA
             m.Rows[iPivo][0] = m.Columns[jPivo + 1].ColumnName;
             for (int i = 0; i <= iMax; i++)
                 for (int j = 0; j <= jMax; j++)
