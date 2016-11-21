@@ -15,9 +15,7 @@ namespace Simplex
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        
+  
         private void InitializeComponent()
         {
             this.panContent = new System.Windows.Forms.Panel();
@@ -27,17 +25,13 @@ namespace Simplex
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panContent
-            // 
+          
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(0, 25);
             this.panContent.Name = "panContent";
             this.panContent.Size = new System.Drawing.Size(284, 239);
             this.panContent.TabIndex = 0;
-            // 
-            // toolStrip1
-            // 
+            
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -46,13 +40,9 @@ namespace Simplex
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
          
-            // 
-            // printDialog1
-            // 
+            
             this.printDialog1.UseEXDialog = true;
-            // 
-            // frmResults
-            // 
+            
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 264);
@@ -67,7 +57,7 @@ namespace Simplex
 
         }
 
-        #endregion
+     
 
         private System.Windows.Forms.Panel panContent;
         private System.Windows.Forms.ToolStrip toolStrip1;
