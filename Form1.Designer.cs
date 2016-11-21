@@ -2,7 +2,30 @@ namespace Simplex
 {
     partial class Form1
     {
- 
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
             this.grpVariaveis = new System.Windows.Forms.GroupBox();
@@ -17,7 +40,9 @@ namespace Simplex
             this.lstResultado = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.grpVariaveis.SuspendLayout();
-
+            this.grpNaoBase.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // grpVariaveis
             // 
@@ -38,6 +63,7 @@ namespace Simplex
             this.btnAddVarBase.TabIndex = 3;
             this.btnAddVarBase.Text = "Adicionar Variável de Folga";
             this.btnAddVarBase.UseVisualStyleBackColor = true;
+            this.btnAddVarBase.Click += new System.EventHandler(this.button1_Click);
             // 
             // lstVariavelBase
             // 
@@ -66,6 +92,7 @@ namespace Simplex
             this.btnVarNaoBase.TabIndex = 3;
             this.btnVarNaoBase.Text = "Adicionar Variável Base";
             this.btnVarNaoBase.UseVisualStyleBackColor = true;
+            this.btnVarNaoBase.Click += new System.EventHandler(this.btnVarNaoBase_Click);
             // 
             // lstNaoBase
             // 
@@ -77,8 +104,9 @@ namespace Simplex
             // 
             // dataGridView1
             // 
-
-            
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(421, 18);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(422, 265);
@@ -92,6 +120,7 @@ namespace Simplex
             this.btnMontarMatriz.TabIndex = 3;
             this.btnMontarMatriz.Text = "MontarMatriz";
             this.btnMontarMatriz.UseVisualStyleBackColor = true;
+            this.btnMontarMatriz.Click += new System.EventHandler(this.btnMontarMatriz_Click);
             // 
             // button1
             // 
@@ -101,10 +130,13 @@ namespace Simplex
             this.button1.TabIndex = 4;
             this.button1.Text = "Calcular Valores";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // lstResultado
             // 
-
+            this.lstResultado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.lstResultado.FormattingEnabled = true;
             this.lstResultado.Location = new System.Drawing.Point(423, 294);
             this.lstResultado.Name = "lstResultado";
@@ -119,11 +151,12 @@ namespace Simplex
             this.button2.TabIndex = 6;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 421);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lstResultado);
@@ -131,15 +164,20 @@ namespace Simplex
             this.Controls.Add(this.btnMontarMatriz);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.grpNaoBase);
-            this.Controls.Add(this.grpVariaveis);    
-
-
+            this.Controls.Add(this.grpVariaveis);
+            this.Name = "Form1";
+            this.Text = "Simplex - By André Guergolet (http://www.guergolet.com.br)";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.grpVariaveis.ResumeLayout(false);
+            this.grpNaoBase.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
 
         }
 
+        #endregion
 
         private System.Windows.Forms.GroupBox grpVariaveis;
-
         private System.Windows.Forms.ListBox lstVariavelBase;
         private System.Windows.Forms.Button btnAddVarBase;
         private System.Windows.Forms.GroupBox grpNaoBase;
