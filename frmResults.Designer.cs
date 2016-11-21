@@ -2,10 +2,15 @@ namespace Simplex
 {
     partial class frmResults
     {
-        
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-      
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -17,7 +22,10 @@ namespace Simplex
 
         #region Windows Form Designer generated code
 
-        
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
             this.panContent = new System.Windows.Forms.Panel();
@@ -45,7 +53,16 @@ namespace Simplex
             this.toolStrip1.Size = new System.Drawing.Size(284, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-         
+            // 
+            // toolStripButton1
+            // 
+        //    this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+        //    this.toolStripButton1.Image = global::Simplex.Properties.Resources._6112_16x16;
+        //    this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+       //     this.toolStripButton1.Name = "toolStripButton1";
+      //      this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+     //       this.toolStripButton1.Text = "toolStripButton1";
+
             // 
             // printDialog1
             // 
