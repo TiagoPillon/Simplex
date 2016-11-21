@@ -1,6 +1,6 @@
 # Simplex
 
-version 0.5
+version 1.0
 
 Marlon Allan – RA: 543772
 
