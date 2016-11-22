@@ -46,7 +46,8 @@ Design pattern	: Não Utilizado
 4. Atividades Realizadas No período
 Nessa liberação foram contemplados os seguintes itens:
 
-Cód	  Título	 Tarefa	                         Situação	      Observação
- 1	  Layout	 Mostrar o layout da aplicação	 Concluído	    Apenas mostrar o Layout da aplicação sem efetuar calculos
-
-
+Cód:1 
+Título	: Layout	                               
+Tarefa	: Mostrar o layout da aplicação	 	    
+Situação	: Concluído
+Observação : Apenas mostrar o Layout da aplicação sem efetuar calculos
