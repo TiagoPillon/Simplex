@@ -52,3 +52,20 @@ Título	: Layout
 Tarefa	: Mostrar o layout da aplicação	 	    
 Situação	: Concluído
 Observação : Apenas mostrar o Layout da aplicação sem efetuar calculos
+
+Nota de Liberação Simplex versão 1.0
+Introdução
+Este documento provê uma visão da parte de calculos do aplicativo Simplex.  Por último são descritos as etapas que foram resolvidas para liberação da versão atual.
+
+1. Nota de release a ser publicado
+•	Calculos.
+
+4. Atividades Realizadas No período
+Nessa liberação foram contemplados os seguintes itens:
+
+Cód:2
+
+Título	: Maximização                               
+Tarefa	: Mostrar os calculos de maximização 	    
+Situação	: Concluído
+
