@@ -47,6 +47,7 @@ Design pattern	: Não Utilizado
 Nessa liberação foram contemplados os seguintes itens:
 
 Cód:1 
+
 Título	: Layout	                               
 Tarefa	: Mostrar o layout da aplicação	 	    
 Situação	: Concluído
