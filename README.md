@@ -96,13 +96,3 @@ Nessa liberação foram contemplados os seguintes itens:
 Cód|Título|Situação|Observação|
 ---|------|--------|---------|
 1  | Layout|Concluido|Apenas mostrar o Layout da aplicação sem efetuar calculos|
-
-Título	: Layout	
-
-Tarefa	: Mostrar o layout da aplicação	 	    
-
-Situação	: Concluído
-
-Observação : 
-
-
