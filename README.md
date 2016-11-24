@@ -12,6 +12,7 @@ Felipe – RA: 545155
 Projeto de Pesquisa Operacional
 
 •	6º Semestre BCC Univem
+
 Implementação do algoritmo Simplex em C# para resolução de sistemas lineares, a aplicação resolve problemas de maximização 
 e minimização para expressões.
 
@@ -22,7 +23,7 @@ Nota de Liberação Simplex versão 0.5
 
 Introdução
 
-Este documento provê uma visão do layout do aplicativo Simplex. Aqui descreveremos as questões visuais do aplicativo. Por último são descritos as etapas que foram resolvidas para liberação da versão atual.
+Implementação do algoritmo simplex em C#.
 
 1. Nota de release a ser publicado
 
